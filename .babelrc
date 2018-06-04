@@ -1,0 +1,6 @@
+{
+  "presets": [["@babel/preset-stage-0", { "decoratorsLegacy": true }], "@babel/preset-react", "@babel/preset-flow", "@babel/preset-env"],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties"
+  ]
+}
