@@ -3,23 +3,24 @@
   "version": "1.0.0",
   "description": "A render-prop component for toggling boolean values.",
   "main": "lib/index.min.js",
+  "reveal": true,
   "scripts": {
     "build": "webpack --env.NODE_ENV production --mode production",
     "dev": "webpack --env.NODE_ENV development --mode development --progress --colors --watch --env dev"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/reactingjs/rp-toggle.git"
+    "url": "https://github.com/smooshgate/react-toggler.git"
   },
   "keywords": [
     "react"
   ],
-  "author": "Colton Colcleasure",
+  "author": "Colton Colcleasure <colshacol@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/reactingjs/rp-toggle/issues"
+    "url": "https://github.com/smooshgate/react-toggler/issues"
   },
-  "homepage": "https://github.com/reactingjs/rp-toggle",
+  "homepage": "https://github.com/smooshgate/react-toggler",
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.49",
     "@babel/core": "^7.0.0-beta.49",
